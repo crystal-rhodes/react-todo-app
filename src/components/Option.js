@@ -4,7 +4,7 @@ import React from 'react';
 export default Option = (props) => {
     return (
         <div className="option">
-            <li >{props.option}</li>
+            <li className="option__text">{props.option}</li>
             <button
                 className="button button-link"
                 onClick={(e) => {

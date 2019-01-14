@@ -6,5 +6,13 @@
 }
 
 .option__text {
-    
+    color: $off-white;
+    vertical-align: middle;
+}
+
+.error__message {
+    color: $off-white;
+    margin: 0;
+    padding: $m-size;
+    text-align: center;
 }
